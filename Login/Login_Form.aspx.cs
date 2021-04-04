@@ -15,13 +15,13 @@ public partial class Login_Form : System.Web.UI.Page
     {
         if(tb_Username.Text == "a" && tb_Password.Text == "123")
         {
-            Response.Write("<script>alert('Successful In Login')</script>");
+            Response.Write("<script>alert('Successful In Login..!!')</script>");
             Response.Redirect("~/Next_Form.aspx");
 
         }
         else
         {
-            Response.Write("<script>alert('Login Fail..')</script>");
+            Response.Write("<script>alert('Login Fail..!!')</script>");
         }
     }
 }
